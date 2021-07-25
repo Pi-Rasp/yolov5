@@ -1,0 +1,8 @@
+# keep this file into yolov5/data directory
+
+path: /scratch/nitin/IDD_detection_yolo    # dataset root dir
+train: /scratch/nitin/IDD_detection_yolo/train.txt  # train images (relative to 'path') 128 images
+val: /scratch/nitin/IDD_detection_yolo/val.txt  # val images (relative to 'path') 128 images
+test: # test images (optional)
+nc: 7
+names: ['motorcycle', 'bicycle', 'autorickshaw', 'car', 'truck', 'bus', 'caravan']
